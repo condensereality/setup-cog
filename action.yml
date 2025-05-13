@@ -37,7 +37,7 @@ runs:
       - name: Setup Cog
         shell: bash
         run: |
-          sudo curl -o /usr/local/bin/cog -L https://github.com/condense/cog/releases/download/${{ inputs.cog-version }}/cog_Linux_x86_64
+          sudo curl -o /usr/local/bin/cog -L https://github.com/condensereality/cog/releases/download/${{ inputs.cog-version }}/cog_Linux_x86_64
           sudo chmod +x /usr/local/bin/cog
           cog --version
 
